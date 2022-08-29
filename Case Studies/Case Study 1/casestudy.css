@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(20, 104, 176);
+}
+
+/* CSS properties for First header */
+.header1 .container {
+    display: flex;
+    justify-content: center;
+}
+
+.header1 .navlist1 {
+    /* padding-left: 10%; */
+    padding-right: 50%;
+}
+
+.header1 .navlist1 li a:hover {
+    text-decoration: underline;
+}
+
+.header1 .navlist1 li a {
+    color: black;
+    font-weight: bold;
+}
+
+.header1 .navlist2 li a {
+    color: black;
+    font-weight: bold;
+}
+
+.header1 .navlist2 li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Main Navbar CSS properties and Mega Menu */
+
+button:focus,
+.navbarToggler:focus {
+    outline: 10;
+    box-shadow: none;
+    appearance: none;
+}
+
+.navbarMain {
+    background-color: rgb(0, 25, 165);
+    padding: 15px 0;
+}
+
+.menuList .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    /* display: inline-block; */
+}
+
+.menuList .nav-link:hover {
+    color: rgb(1, 183, 180);
+}
+
+.listItem .dropDownItems h5 {
+    padding-bottom: 10px;
+    border: 0;
+    margin: 0;
+    color: rgb(2, 2, 34);
+}
+
+.listItem .dropDownItems .dropdown-item {
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    color: rgb(20, 6, 108);
+    padding: 5px 0;
+}
+
+.listItem .dropDownItems .dropdown-item:hover {
+    color: rgb(1, 183, 180);
+    text-decoration: underline;
+    background-color: white;
+}
+
+.rightMenu .listItem .nav-link::after {
+    content: none;
+}
+
+.listItem:hover .dropDownItems {
+    display: list-item;
+}
+
+.buttonImg {
+    background-image: url(./images/5g-why-o2-thumbnail-dark.jpg);
+    color: white;
+    width: 12vw;
+    height: 12vh;
+    text-align: left;
+}
+
+.buttonImg2 {
+    background-image: url(./images/why-o2-thumbnail-dark-2.jpg);
+    color: white;
+    width: 12vw;
+    height: 12vh;
+    text-align: left;
+}
+
+.buttonImg:hover {
+    width: 14vw;
+    height: 16vh;
+    color: rgb(243, 233, 233);
+}
+
+.buttonImg2:hover {
+    width: 14vw;
+    height: 16vh;
+    color: rgb(243, 233, 233);
+}
+
+
+/* for alert msg */
+.alertBanner .alert {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.alertBanner {
+    background: rgb(1, 183, 180);
+}
+
+
+
+/* CSS property for firstBanner after menu */
+
+.banner1 {
+    position: relative;
+    padding-top: 10%;
+    padding-left: 20%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.o2.co.uk/documents/456036/5702645/switch-up-interim-headersuper-xxl-574x2-210722.jpg/20272aee-c630-8318-fcb3-759b74248e60?t=1658473436635");
+    min-height: 80vh;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.banner1 h1,
+p {
+    color: white;
+}
+
+.banner1 .btn {
+    background-color: white;
+    font-weight: 500;
+    width: 18%;
+}
+
+.custom-shape-divider-bottom-1661678317 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1661678317 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+}
+
+.banner1 .custom-shape-divider-bottom-1661678317 .shape-fill {
+    fill: rgb(241, 241, 241);
+}
+
+/* .banner1 .btn .arrowImg:hover{
+    display: flex;
+    float: right;
+} */
+.dividerArrow {
+    position: sticky;
+    width: 75px;
+    height: 40px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: 47%;
+    margin-top: -1%;
+    padding: 10px;
+    background-image: url(./images/down-arrow.png);
+    background-color: rgb(15, 118, 189);
+    border: none;
+    /* font-size: larger; */
+}
+
+@media screen and (max-width: 657px) {
+    div.divSpan {
+        display: none;
+    }
+}
+
+
+.divSpan {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+
+/* .divSpan .dividerArrow .downArrow{
+    width: 50% !important;
+    height: 50% !important;
+    font-size: 1em;
+} */
+
+
+
+/* CSS property for SecondBanner after menu */
+
+.banner2 {
+    /* margin-top: -100px; */
+    position: relative;
+    padding-top: 10%;
+    padding-left: 20%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.o2.co.uk/documents/456036/5832146/billboard-xxl-2000-right-dark-230822.jpg/9d7aa6a3-8717-52a2-a24a-9c2484a7de4c?t=1661518664401");
+    min-height: 80vh;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.banner2 h1 {
+    color: rgb(4, 44, 91);
+    font-weight: 700;
+}
+
+.banner2 p {
+    color: rgb(4, 44, 91);
+    font-weight: 500;
+}
+
+.banner2 .btn {
+    background-color: rgb(46, 163, 226);
+    font-weight: 500;
+    width: 18%;
+}
+
+.custom-shape-divider-bottom-1661678317 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1661678317 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+}
+
+.custom-shape-divider-bottom-1661678317 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+/* CSS Property for Fixed Button on right */
+.stickybtn {
+    top: 49%;
+    left: 96%;
+    float: right;
+    position: fixed;
+    transform: rotate(90deg);
+    background-color: #FFFFFF;
+    width: 100px;
+    font: bolder;
+}
